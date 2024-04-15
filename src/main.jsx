@@ -14,35 +14,35 @@ import { CartProvider } from "./context/CartContext.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactjs-e-commerce",
     element: <App />,
     children: [
       {
-        path: "",
+        path: "/reactjs-e-commerce",
         element: <Home image={banner1} title="Shopper" />,
       },
       {
-        path: "categories/electronics",
+        path: "/reactjs-e-commerce/categories/electronics",
         element: <ShopCategory image={banner2} title="Electronics" />,
       },
       {
-        path: "categories/jewelery",
+        path: "/reactjs-e-commerce/categories/jewelery",
         element: <ShopCategory image={banner3} title="Jewelery" />,
       },
       {
-        path: "categories/men's clothing",
+        path: "/reactjs-e-commerce/categories/men's clothing",
         element: <ShopCategory image={banner1} title="Men's Clothing" />,
       },
       {
-        path: "categories/women's clothing",
+        path: "/reactjs-e-commerce/categories/women's clothing",
         element: <ShopCategory image={banner2} title="Women's Clothing" />,
       },
       {
-        path: "products/:id",
+        path: "/reactjs-e-commerce/products/:id",
         element: <Product />,
       },
       {
-        path: "cart",
+        path: "/reactjs-e-commerce/cart",
         element: <Cart />,
       },
     ],

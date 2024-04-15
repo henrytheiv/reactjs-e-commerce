@@ -22,27 +22,27 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link active" aria-current="page" to="/">
+              <NavLink className="nav-link active" aria-current="page" to="/reactjs-e-commerce">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/categories/men's clothing">
+              <NavLink className="nav-link" to="/reactjs-e-commerce/categories/men's clothing">
                 Men's clothing
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/categories/women's clothing">
+              <NavLink className="nav-link" to="/reactjs-e-commerce/categories/women's clothing">
                 Women's clothing
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/categories/jewelery">
+              <NavLink className="nav-link" to="/reactjs-e-commerce/categories/jewelery">
                 Jewelery
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/categories/electronics">
+              <NavLink className="nav-link" to="/reactjs-e-commerce/categories/electronics">
                 Electronics
               </NavLink>
             </li>

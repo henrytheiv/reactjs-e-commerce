@@ -5,7 +5,7 @@ const Card = ({ item }) => {
   // Object desctructuring
   const { title, image, description, price } = item;
   return (
-    <Link to={`/products/${item.id}`}>
+    <Link to={`/reactjs-e-commerce/products/${item.id}`}>
       <div className="card">
         <div className="card-body">
           <img src={image} alt={item.description} className="img-fluid" />
